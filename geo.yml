@@ -1,9 +1,28 @@
+# France Subnets
 - subnet: 2001:678:ac4::/48
   continent: europe
   country: FR
   region: FR-75C
   city: Paris
   geo: null
+
+# Germany Subnets
+- subnet: 2a0c:b641:610::/48
+  continent: europe
+  country: DE
+  region: DE-HE
+  city: Frankfurt
+  geo: null
+
+# Netherlands Subnets
+- subnet: 2a0c:b641:611::/48
+  continent: europe
+  country: NL
+  region: NL-NH
+  city: Amsterdam
+  geo: null
+
+# Portugal Subnets
 - subnet: 2a0c:b641:61b::/48
   continent: europe
   country: PT
