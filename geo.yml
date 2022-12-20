@@ -1,0 +1,20 @@
+- subnet: 2001:678:ac4::/48
+  continent: europe
+  country: FR
+  region: FR-75C
+  city: Paris
+  geo: null
+- subnet: 2a0c:b641:61b::/48
+  continent: europe
+  country: PT
+  region: PT-13
+  city: Porto
+  geo: null
+
+# Temporary subnet (to remove after March 2023)
+- subnet: 2a0c:b641:61c::/48
+  continent: asia
+  country: JP
+  region: JP-13
+  city: Tokyo
+  geo: null
