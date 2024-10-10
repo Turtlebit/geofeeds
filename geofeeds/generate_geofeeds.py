@@ -75,18 +75,19 @@ def generate_csv(conf, continent: Optional[str] = None):
             writer.writerow(subnet)
 
 
-with open("./geo.yml", "r") as f:
-    conf = yaml.load(f, yaml.BaseLoader)
+def run():
+    with open("./geo.yml", "r") as f:
+        conf = yaml.load(f, yaml.BaseLoader)
 
-    continents_conf = {}
-    for continent in CONTINENTS:
-        continents_conf[continent] = [v for v in conf if v["continent"] == continent]
+        continents_conf = {}
+        for continent in CONTINENTS:
+            continents_conf[continent] = [v for v in conf if v["continent"] == continent]
 
-    # Generate the global geofeed file
-    generate_csv(conf)
+        # Generate the global geofeed file
+        generate_csv(conf)
 
-    # Generate a geofeed file for each continent
-    for continent, conf in continents_conf.items():
-        generate_csv(conf, continent)
+        # Generate a geofeed file for each continent
+        for continent, conf in continents_conf.items():
+            generate_csv(conf, continent)
 
-    print("All geofeeds have been generated.")
+        print("All geofeeds have been generated.")

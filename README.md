@@ -20,7 +20,7 @@ To update geofeeds, you will need to have Python and [Poetry](https://github.com
 To add, update or remove a geofeed information:
 
  - update the `geo.yml` file
- - run the `generate_geofeeds.py` script (`poetry run python generate_geofeeds.py`).
+ - run `poetry run geofeeds`.
  - Review all changes, commit and make a pull request for review.
 
 Once, the pull request has been merged, geofeeds will be automatically updated on [geofeed.turtlebit.net](https://geofeed.turtlebit.net).
