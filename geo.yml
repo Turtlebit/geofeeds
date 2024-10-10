@@ -1,4 +1,40 @@
 # France Subnets
+- subnet: 2a0e:f43:1a::/48
+  continent: europe
+  country: FR
+  region: FR-75C
+  city: Paris
+  geo: null
+
+# Germany Subnets
+- subnet: 2a0e:f43:10::/48
+  continent: europe
+  country: DE
+  region: DE-HE
+  city: Frankfurt
+  geo: null
+
+# Netherlands Subnets
+- subnet: 2a0e:f43:11::/48
+  continent: europe
+  country: NL
+  region: NL-NH
+  city: Amsterdam
+  geo: null
+
+# Portugal Subnets
+- subnet: 2a0e:f43:17::/48
+  continent: europe
+  country: PT
+  region: PT-13
+  city: Porto
+  geo: null
+
+# -- Legacy subnets
+# A migration is in progress to move to a unique /44 assignment. 
+# The following subnets are kept until the migration is done.
+
+# France Subnets
 - subnet: 2001:678:ac4::/48
   continent: europe
   country: FR
