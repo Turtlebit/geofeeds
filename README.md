@@ -28,4 +28,4 @@ Once, the pull request has been merged, geofeeds will be automatically updated o
 
 ## Script contributions
 
-In case you make modifications to the `generate_geofeeds.py` script, please run `black`, `isort`, and `flake8`.
+In case you make modifications to the `generate_geofeeds.py` script, please run `ruff`.
