@@ -1,10 +1,7 @@
 # Self-published geofeed as defined in datatracker.ietf.org/doc/html/rfc8805
-# TurtleBit Europe Geofeed,lastupdated (rfc3339): 2024-10-10T15:13:28.505655
+# TurtleBit Europe Geofeed,lastupdated (rfc3339): 2024-10-28T11:13:46.247856
 2a0e:f43:1a::/48,FR,FR-75C,Paris,
 2a0e:f43:10::/48,DE,DE-HE,Frankfurt,
 2a0e:f43:11::/48,NL,NL-NH,Amsterdam,
 2a0e:f43:17::/48,PT,PT-13,Porto,
 2001:678:ac4::/48,FR,FR-75C,Paris,
-2a0c:b641:610::/48,DE,DE-HE,Frankfurt,
-2a0c:b641:611::/48,NL,NL-NH,Amsterdam,
-2a0c:b641:61b::/48,PT,PT-13,Porto,
